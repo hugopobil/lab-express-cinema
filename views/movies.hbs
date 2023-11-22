@@ -1,0 +1,13 @@
+<div class="allmovies-container">
+    {{#each movies}}
+    <div class="movie-container">
+        <div class="movie-title">{{title}}</div>
+        <div class="movie-director">{{director}}</div>
+        <div class="movie-stars">{{stars}}</div>
+        <div class="movie-image"><img src="{{image}}" alt=""></div>
+        <div class="movie-times">{{times}}</div>
+        <div class="movie-see-more"><a href="/movies/{{id}}" class="btn btn-primary">See More</a></div>
+    </div> 
+    {{/each}}
+    
+</div>
